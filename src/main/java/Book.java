@@ -7,7 +7,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.sql.Timestamp;
 
-public class Book {
+public class Book extends Media{
 
   public Book() {
 

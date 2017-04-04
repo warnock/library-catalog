@@ -7,7 +7,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.sql.Timestamp;
 
-public class Media {
+public abstract class Media {
   public String name;
   public int patronId;
   public int id;
