@@ -8,9 +8,13 @@ import java.util.TimerTask;
 import java.sql.Timestamp;
 
 public class Patron {
+  private String name;
+  private String number;
+  private int id;
 
-  public Patron() {
-
+  public Patron(String name, String phone) {
+    this.name = name;
+    this.email = email;
   }
 
 }
