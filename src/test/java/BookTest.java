@@ -14,4 +14,9 @@ public class BookTest {
   @Rule
   public DatabaseRule databse = new DatabaseRule();
 
+  @Test
+  public void Book_instantiatesCorrectly_true() {
+    Book testBook = new Book("name", 1, "author");
+    assertEquals(true, testBook instanceof Book);
+  }
 }

@@ -9,12 +9,12 @@ import java.sql.Timestamp;
 
 public class Patron {
   private String name;
-  private String number;
+  private String phone;
   private int id;
 
   public Patron(String name, String phone) {
     this.name = name;
-    this.email = email;
+    this.phone = phone;
   }
 
 }

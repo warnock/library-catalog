@@ -8,8 +8,9 @@ import java.util.TimerTask;
 import java.sql.Timestamp;
 
 public class Book extends Media{
+  private String author;
 
-  public Book() {
+  public Book(String name, int patronId, String author) {
 
   }
 

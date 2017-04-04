@@ -36,8 +36,8 @@ public abstract class Media {
       return false;
     } else {
       Media newMedia = (Media) otherMedia;
-      return this.getName().eqals(newMedia.getName()) &&
-        this.getpatronId() == newMedia.getPatronId();
+      return this.getName().equals(newMedia.getName()) &&
+        this.getPatronId() == newMedia.getPatronId();
     }
   }
 
