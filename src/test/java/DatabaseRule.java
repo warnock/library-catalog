@@ -17,6 +17,7 @@ public class DatabaseRule extends ExternalResource {
       // con.createQuery(deletePatronQuery).executeUpdate();
       String deleteMediaQuery = "DELETE FROM medias *;";
       con.createQuery(deleteMediaQuery).executeUpdate();
+      //create table medias (id serial primary key, name varchar, patronid int, type varchar, checkedout timestamp);
     }
   }
 }
